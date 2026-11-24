@@ -1,0 +1,46 @@
+# ---------------- data ----------------
+# Raw AIS dumps (NOAA MarineCadastre) are NOT redistributed here.
+# Download them with scripts/download_data.py instead.
+data/
+*.csv
+*.zip
+!requirements.txt
+
+# ---------------- outputs ----------------
+output/
+figs/
+results*.json
+*_history.json
+*.pt
+*.pth
+*.ckpt
+
+# ---------------- python ----------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---------------- env ----------------
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# ---------------- editor / os ----------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------------- logs ----------------
+*.log
+runs/
+wandb/
