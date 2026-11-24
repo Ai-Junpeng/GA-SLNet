@@ -150,13 +150,6 @@ Gap augmentation (`GAP_AUG_P = 0.25`, up to 30 min) is applied during training
 as a curriculum, and ablation `gaslnet2_nodt` isolates its contribution from the
 time-bearing input design.
 
-## Status
-
-Research code accompanying a manuscript. The pipeline is complete for
-`*2.py`; the preprocessing module (`dataset2.py` / `preprocess.py`) that turns
-the raw NOAA CSVs into `train2.npz` / `eval2.npz` is being cleaned up for
-release.
-
 ## License
 
 MIT — see [LICENSE](LICENSE).
